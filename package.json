@@ -4,7 +4,7 @@
   "description": "",
   "main": "clone.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --collectCoverage",
     "build:esm": "rollup -c config/rollup.config.esm.js",
     "build:cjs": "rollup -c config/rollup.config.cjs.js",
     "build:umd": "rollup -c config/rollup.config.umd.js",
