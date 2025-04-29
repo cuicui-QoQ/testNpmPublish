@@ -1,6 +1,6 @@
 {
   "name": "cui-clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "clone.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cui-clone": "^1.0.0",
     "rollup": "^3.26.0"
   }
 }
