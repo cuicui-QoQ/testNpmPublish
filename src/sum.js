@@ -6,7 +6,7 @@ function minus(a, b) {
     return a - b;
 }
 
-module.exports = {
+export {
     sum,
     minus
 }

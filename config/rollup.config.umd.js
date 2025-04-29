@@ -1,5 +1,5 @@
 module.exports = {
-    input: 'src/clone.js',
+    input: 'src/index.js',
     output: {
       file: 'dist/index.umd.js',
       format: 'umd',
