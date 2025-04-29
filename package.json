@@ -1,15 +1,18 @@
 {
   "name": "cui-clone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "clone.js",
   "scripts": {
-    "build": "rollup -c"
+    "build:esm": "rollup -c config/rollup.config.esm.js",
+    "build:cjs": "rollup -c config/rollup.config.cjs.js",
+    "build:umd": "rollup -c config/rollup.config.umd.js",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:umd"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cui-clone": "^1.0.0",
+    "cui-clone": "^1.0.1",
     "rollup": "^3.26.0"
   }
 }
